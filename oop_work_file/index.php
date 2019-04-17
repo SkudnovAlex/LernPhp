@@ -7,4 +7,5 @@ $file->write('- привет!');
 $file->write('- Как дела?');
 $file->write('- Хорошо. А у тебя?');
 $file->write('- И у меня Хорошо!');
-$file->write('Хорошо, что у всех все хорошо!');
+$resAdd = $file->write('Хорошо, что у всех все хорошо!');
+var_dump($resAdd);
