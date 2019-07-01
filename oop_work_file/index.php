@@ -2,7 +2,7 @@
 
 require_once 'classes/File.php';
 
-$file = new File(__DIR__ . '/file.txt')();
+$file = new File(__DIR__ . '/file.txt')()_;
 $file->write('- привет!');
 $file->write('- Как дела?');
 $file->write('- Хорошо. А у тебя?');
